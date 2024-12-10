@@ -1,0 +1,17 @@
+# WordPress Core files (not necessary to track)
+wp-admin/
+wp-includes/
+
+# Configuration files (do not share wp-config.php)
+wp-config.php
+
+# Directories that store media files and cache
+wp-content/uploads/
+wp-content/cache/
+
+# Database backups
+*.sql
+
+# Files created by operating system (don't need to track these)
+.DS_Store
+Thumbs.db
